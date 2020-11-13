@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Salim Garcia
 
 You can use the [editor on GitHub](https://github.com/salimgarcia/salimgarcia.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
