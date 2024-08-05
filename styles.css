@@ -1,5 +1,12 @@
 body {
     margin: 0;
-    background: rgb(238, 255, 192);
+    background-image: url(wp2721344-xbox-360-backgrounds.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
+    header {
+        background-color: black;
+        color: antiquewhite;
+    }
 }
