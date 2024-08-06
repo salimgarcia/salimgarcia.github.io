@@ -1,12 +1,82 @@
 body {
     margin: 0;
-    background-image: url(wp2721344-xbox-360-backgrounds.jpg);
+    /* background-image: url(wp2721344-xbox-360-backgrounds.jpg); */
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-    header {
-        background-color: black;
-        color: antiquewhite;
+    
+    #page {
+        border-style: solid;
+        border-color: purple;
+        max-width: 1600px;
+        margin: auto;
+        padding: 5px;
+        text-align: left;
+    }
+
+    #header {
+        background-color: white;
+        color: black;
+        text-align: center;
+        max-width: 1560px;
+        height: 150px;
+        padding: 20px;
+    }
+
+    #menu {
+        border-style: solid;
+        border-color: greenyellow;
+        width: 390px;
+        margin: 10px 10px 10px 0px;
+        height: 1000px;
+        float: left;
+    }
+
+    #content {
+        border-style: solid;
+        border-color: blue;
+        color: white;
+        max-width: 1190px;
+        margin: 10px 0px 10px 410px;
+        min-height: 1500px
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: whitesmoke;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .container {
+        max-width: 1200px;
+        /* margin: auto; */
+    }
+
+    .column {
+        float: left;
+        width: 30%;
+        padding: 20px;
+    }
+
+    .left {
+        background-color: red;
+    }
+
+    .middle {
+        background-color: red;
+    }
+
+    .right {
+        background-color: red;
     }
 }
