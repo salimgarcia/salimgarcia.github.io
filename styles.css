@@ -17,6 +17,7 @@ body {
     }
 
     #header {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         background-color: white;
         color: black;
         text-align: center;
@@ -26,8 +27,8 @@ body {
     }
 
     #menu {
-        border-style: solid;
-        border-color: greenyellow;
+        border-style: outset;
+        border-color: grey;
         width: 390px;
         margin: 10px 10px 10px 0px;
         height: 1000px;
@@ -55,28 +56,5 @@ body {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-    }
-
-    .container {
-        max-width: 1200px;
-        /* margin: auto; */
-    }
-
-    .column {
-        float: left;
-        width: 30%;
-        padding: 20px;
-    }
-
-    .left {
-        background-color: red;
-    }
-
-    .middle {
-        background-color: red;
-    }
-
-    .right {
-        background-color: red;
     }
 }
